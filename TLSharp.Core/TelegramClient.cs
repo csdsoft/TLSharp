@@ -18,9 +18,9 @@ namespace TLSharp.Core
 		private MtProtoSender _sender;
 		private AuthKey _key;
 		private TcpTransport _transport;
-		private string _apiHash = "a2514f96431a228e4b9ee473f6c51945";
-		private int _apiId = 19474;
-		private Session _session;
+		private string _apiHash = ""; // FIX: API HASH
+        private int _apiId = 0; // FIX: API ID
+        private Session _session;
 		private List<DcOption> dcOptions; 
 
 		public TelegramClient(ISessionStore store, string sessionUserId)

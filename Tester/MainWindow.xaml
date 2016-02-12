@@ -1,0 +1,20 @@
+﻿<Window x:Class="Tester.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tester"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="112,45,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" ToolTip="Code"/>
+        <Button x:Name="button" Content="Request" HorizontalAlignment="Left" Margin="248,45,0,0" VerticalAlignment="Top" Width="75" Click="button_Click"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="126" Margin="51,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="376"/>
+        <Button x:Name="send" Content="Send" HorizontalAlignment="Left" Margin="350,271,0,0" VerticalAlignment="Top" Width="75" Click="send_Click"/>
+        <Label x:Name="label" Content="Phone:" HorizontalAlignment="Left" Margin="51,45,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="23" Margin="112,84,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" ToolTip="Code"/>
+        <Label x:Name="label_Copy" Content="Phone:" HorizontalAlignment="Left" Margin="51,81,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="button2" Content="Register" HorizontalAlignment="Left" Margin="248,84,0,0" VerticalAlignment="Top" Width="75" Click="button2_Click"/>
+
+    </Grid>
+</Window>
